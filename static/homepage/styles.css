@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.column {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* text-align: end; */
+}
+.column > input {
+    margin-top: 2rem;
+    max-width: fit-content;
+    align-self: center;
+}
+.column > canvas {
+    align-self: center;
+    /* max-width: 50vw;
+    max-height: 80vw; */
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.row > input {
+    display: inline-block;
+}
+.row > label {
+    display: inline-block;
+    margin-right: 10px;
+}
+.lead {
+    text-align: center;
+}

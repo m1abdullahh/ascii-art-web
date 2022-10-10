@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-To-ASCII ❤️</title>
+    <link rel="stylesheet" href="/homepage/styles.css">
+    <link rel="stylesheet" href="/homepage/bootstrap.min.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>
+            Photo-To-ASCII v0.23.rc2 🖥️
+        </h1>
+        <h2>
+            This mini app converts your image 🤳 to ASCII Art. 1️⃣0️⃣ 💪
+        </h2>
+        <p class="lead">
+            ℹ️. The converted ASCII art is also stored on the server so you
+            can later access it if you want. The art URL is specific to every art created.
+            <br>
+            ℹ️. Try to use an image that is not so large to get the best results!
+        </p>
+    </div>
+    <div class="jumbotron">
+        <h2>
+            Select your image below. 👇
+        </h2>
+        <div class="column">
+            <div class="mb-3">
+                <!-- <label for="formFile" class="form-label">Default file input example</label> -->
+                <input class="form-control" type="file" id="image-input">
+              </div>
+            <!-- <input type="file" name="image-input" id="image-input"> -->
+            <!-- <canvas id="image-canvas"></canvas> -->
+            <div class="row">
+                <input type="checkbox" name="open-page" id="open-page">
+                <label for="open-page">&nbsp;Open results page on completion.</label>
+            </div>
+        </div>
+        <span id="results-link" hidden></span>
+    </div>
+    <!-- <pre id="result-space"> -->
+    </pre>
+    <script defer src="/homepage/script.js"></script>
+    <script src="/homepage/crypto-js.min.js"></script>
+</body>
+</html>
